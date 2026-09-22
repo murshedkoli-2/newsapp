@@ -1,50 +1,36 @@
-# Welcome to your Expo app 👋
+# 📱 NewsApp — Mobile Real-Time News Reader & Live Feed Client
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![React Native](https://img.shields.io/badge/React_Native-0.74-61DAFB?style=for-the-badge&logo=react)](https://reactnative.dev/)
+[![Expo](https://img.shields.io/badge/Platform-Expo-000020?style=for-the-badge&logo=expo)](https://expo.dev/)
+[![React Query](https://img.shields.io/badge/Data-TanStack_Query-FF4154?style=for-the-badge&logo=react-query)](https://tanstack.com/query)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-## Get started
+A cross-platform mobile news reader application built with **React Native** and **Expo**. Features offline reading, categorized news discovery, live breaking news notifications, and smooth reading typography.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🌟 Key Features
 
-2. Start the app
+- **📰 Curated News Feeds**: Real-time articles synchronized with TanStack React Query for background caching and instant response.
+- **💾 Offline Reading Cache**: Save articles locally with AsyncStorage to read without an active internet connection.
+- **🧭 Intuitive Bottom Navigation**: Clean navigation flows with React Navigation (Top Stories, Categories, Bookmarks, Settings).
+- **🌗 Dark & Light Mode**: Fluid theme switching adhering to system appearance.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 🚀 Quickstart Guide
 
 ```bash
-npm run reset-project
+git clone https://github.com/murshedkoli-2/newsapp.git
+cd newsapp
+npm install
+
+# Start Expo Development Server
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📄 License
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Licensed under the [MIT License](LICENSE).
